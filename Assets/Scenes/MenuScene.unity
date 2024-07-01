@@ -331,6 +331,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4429021126777722887, guid: a02e29e99bbd16842bb443158c1477d9, type: 3}
+      propertyPath: startWindowPrefab
+      value: 
+      objectReference: {fileID: 4328077566602246168, guid: 0d714aa1e1dcb7b4fa2209fd4e2c655d, type: 3}
     - target: {fileID: 4993062996573445093, guid: a02e29e99bbd16842bb443158c1477d9, type: 3}
       propertyPath: m_Name
       value: WindowController
@@ -545,10 +549,6 @@ PrefabInstance:
     - target: {fileID: 8768288786431095928, guid: d287110bb7c292042a4fbc42ea7c834e, type: 3}
       propertyPath: m_Name
       value: LoadingWindow
-      objectReference: {fileID: 0}
-    - target: {fileID: 8768288786431095928, guid: d287110bb7c292042a4fbc42ea7c834e, type: 3}
-      propertyPath: m_IsActive
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8949142510414773919, guid: d287110bb7c292042a4fbc42ea7c834e, type: 3}
       propertyPath: m_Pivot.x

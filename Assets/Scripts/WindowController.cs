@@ -9,11 +9,11 @@ public class WindowController : MonoBehaviour, IWindowController
     public event Action<IWindow> OnWindowOpened;
     public event Action<IWindow> OnWindowClosed;
 
-    public GameObject windowPrefab; //test
+    [SerializeField] private GameObject startWindowPrefab; //test
 
     private void Start() 
     {
-        OpenWindow(windowPrefab); //test
+        OpenWindow(startWindowPrefab); //test
     }
 
     public void OpenWindow(GameObject windowPrefab)
@@ -58,4 +58,6 @@ public class WindowController : MonoBehaviour, IWindowController
             CloseWindow();
         }
     }
+
+    
 }

@@ -331,6 +331,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4429021126777722887, guid: a02e29e99bbd16842bb443158c1477d9, type: 3}
+      propertyPath: startWindowPrefab
+      value: 
+      objectReference: {fileID: 149914694531656750, guid: 875e0490085fcca4f99d620bb79cb82f, type: 3}
     - target: {fileID: 4993062996573445093, guid: a02e29e99bbd16842bb443158c1477d9, type: 3}
       propertyPath: m_Name
       value: WindowController
