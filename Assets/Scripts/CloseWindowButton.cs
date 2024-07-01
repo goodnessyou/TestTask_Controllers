@@ -1,5 +1,3 @@
-using UnityEngine;
-
 public class CloseWindowButton : ButtonBase
 {
     protected override void OnButtonClick()

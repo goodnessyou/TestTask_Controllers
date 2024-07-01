@@ -8,12 +8,12 @@ public class WindowController : MonoBehaviour, IWindowController
     private Stack<IWindow> windowStack = new Stack<IWindow>();
     public event Action<IWindow> OnWindowOpened;
     public event Action<IWindow> OnWindowClosed;
-
-    [SerializeField] private GameObject startWindowPrefab; //test
+    
+    [SerializeField] private GameObject startWindowPrefab;
 
     private void Start() 
     {
-        OpenWindow(startWindowPrefab); //test
+        OpenWindow(startWindowPrefab);
     }
 
     public void OpenWindow(GameObject windowPrefab)
@@ -50,14 +50,4 @@ public class WindowController : MonoBehaviour, IWindowController
             }
         }
     }
-
-    public void CloseAllWindows()
-    {
-        for (int i = 0; i <= windowStack.Count; i++)
-        {
-            CloseWindow();
-        }
-    }
-
-    
 }

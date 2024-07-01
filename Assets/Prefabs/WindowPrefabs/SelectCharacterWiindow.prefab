@@ -134,7 +134,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d91752210f44af34f9f2e4ef0ae37996, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetWindowPrefab: {fileID: 149914694531656750, guid: 875e0490085fcca4f99d620bb79cb82f, type: 3}
+  targetScene: GameplayScene
 --- !u!1 &1884241699526585871
 GameObject:
   m_ObjectHideFlags: 0
